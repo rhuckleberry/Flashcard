@@ -1,0 +1,114 @@
+.App {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Background2 {
+    height: 100%;
+    width: 100%;
+    background-color: #70797F;
+    position: absolute;
+    z-index: -2;
+}
+
+.Background {
+    height: 100%;
+    width: 100%;
+    background-color: #3490D0;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    position: absolute;
+    z-index: -1;
+}
+
+.Header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    position: relative;
+}
+
+.Main {
+    margin-top: 175px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Flashcard {
+    background-color: honeydew;
+    height: 500px;
+    width: 1000px;
+    border-style: outset;
+    border-color: darkgray;
+    border-radius: 50px;
+    border-width: 10px;
+    box-shadow: lightgray;
+    outline: none;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+.TermText {
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 80px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    padding: 175px;
+}
+
+.DefinitionText {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    padding: 75px;
+}
+
+.Button {
+    color: black;
+    background-color: honeydew;
+    border-style: outset;
+    border-color: darkgray;
+    border-radius: 50px;
+    border-width: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    box-shadow: lightgray;
+    outline: none;
+}
+
+.ButtonInactive {
+    color: gray;
+    background-color: honeydew;
+    border-style: outset;
+    border-color: darkgray;
+    border-radius: 50px;
+    border-width: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    box-shadow: lightgray;
+    outline: none;
+}
+
+.IndexText {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.Footer {
+    font-style: italic;
+    position: relative;
+    margin-top: 10%;
+    margin-left: -84%;
+}
